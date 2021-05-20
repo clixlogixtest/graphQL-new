@@ -1,0 +1,56 @@
+[
+    {
+        "model": "api.business",
+        "pk": 1,
+        "fields": {
+            "name": "Mayur gupta",
+            "address": "Shahdara Delhi, India",
+            "owner_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "employee_size": 100
+        }
+    },
+
+    {
+        "model": "api.business",
+        "pk": 2,
+        "fields": {
+            "name": "Suraj Jain",
+            "address": "Indore, India",
+            "owner_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "employee_size": 150
+        }
+    },
+
+    {
+        "model": "api.business",
+        "pk": 3,
+        "fields": {
+            "name": "Romil Tripathi",
+            "address": "Rajasthan, India",
+            "owner_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "employee_size": 200
+        }
+    },
+
+    {
+        "model": "api.business",
+        "pk": 4,
+        "fields": {
+            "name": "Neeru Bharti",
+            "address": "Uttar Pradesh, India",
+            "owner_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "employee_size": 250
+        }
+    },
+
+    {
+        "model": "api.business",
+        "pk": 5,
+        "fields": {
+            "name": "Bharat Ghandhi",
+            "address": "Goa, India",
+            "owner_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "employee_size": 50
+        }
+    }
+]

@@ -1,0 +1,58 @@
+Get All business details
+query {
+  allBusiness {
+    id
+    name
+    address
+    ownerInfo
+    employeeSize
+  }
+}
+
+Request by id
+query {
+  business(businessId: 2) {
+    id
+    name
+    ownerInfo
+  }
+}
+
+Create Mutation
+mutation createMutation {
+  createBusiness(businessData: {name: "Nitin Khurana", address: "Mumbai, Maharashtra, India", ownerInfo: "Text test text", employeeSize: 25}) {
+    business {
+      name,
+      address,
+      ownerInfo,
+      employeeSize
+    }
+  }
+}
+
+Update Mutation
+mutation updateMutation {
+  updateBusiness(businessData: {id: 7, name: "Harman Joshi", address: "Mumbai, Maharashtra, India", ownerInfo: "Text test text", employeeSize: 25}) {
+    business {
+      name,
+      address,
+      ownerInfo,
+      employeeSize
+    }
+  }
+}
+
+Delete Mutation
+mutation deleteMutation{
+  deleteBusiness(id: 6) {
+    business {
+      id
+    } 
+  }
+}
+
+
+For test case:
+
+cd to Business dir. and run: pytest test_cases
+All test cases will run automatically
